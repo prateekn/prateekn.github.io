@@ -1,1 +1,98 @@
-Hello Hello
+
+
+<!DOCTYPE html >
+<head>
+<title>$</title>
+<link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGxsb/xsbG/8bGxv/Gxsb/xsbG/8bGxv/Gxsb/xsbG/8bGxv/Gxsb/xsbG/8bGxv/Gxsb/xsbG/8AAAAAAAAAAMnHxf+Pjo3/SkpK/xsbG/8bGxv/Gxsb/xsbG/8bGxv/Gxsb/xsbG/8bGxv/SkpK/4+Ojf/Jx8X/AAAAAAAAAAAAAAAAAAAAAAAAAADJx8X/Ojo6/2FhYf9YWFj/U1NT/1JSUv8bGxv/ycfF/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPDw8/zY2Nv8wMDD/Nzc3/zc3N/8fHx//Gxsb/xcXF/8AAAAAAAAAAAAAAAAAAAAAAAAAAAICAucCAgL1AgIC9QMDA/UEBAT1FhYW/wYGBv8HBwf/Ghoa/wkJCfYKCgr1CgoK9QsLC/UTExOpAAAAAAAAAAAXFxf/X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//T09P/wAAAAAAAAAAHR0d/+DV1f/g1dX/4NXV/+DV1f/g1dX/4NXV/+DV1f/g1dX/4NXV/+DV1f/g1dX/4NXV/0tLS/8AAAAAAAAAACMjI//g1dX/4NXV/+DV1f/g1dX/4NXV/+DV1f/g1dX/4NXV/+DV1f/g1dX/4NXV/+DV1f9GRkb/AAAAAAAAAAAqKir/4NXV/+DV1f/g1dX/4NXV/+DV1f/g1dX/4NXV/+DV1f/g1dX/4NXV/+DV1f/g1dX/QEBA/wAAAAAAAAAAMTEx/+DV1f/g1dX/4NXV/+DV1f/g1dX/4NXV/+DV1f/g1dX/4NXV/+DV1f/g1dX/4NXV/zo6Ov8AAAAAAAAAADg4OP/g1dX/4NXV/+DV1f/g1dX/4NXV/+DV1f/g1dX/4NXV/+DV1f/g1dX/4NXV/+DV1f8zMzP/AAAAAAAAAAA/Pz//4NXV/+DV1f/g1dX/4NXV/+DV1f/g1dX/4NXV/+DV1f/g1dX/4NXV/+DV1f/g1dX/LCws/wAAAAAAAAAARUVF/+DV1f/g1dX/4NXV/+DV1f/g1dX/4NXV/+DV1f/g1dX/4NXV/+DV1f/g1dX/4NXV/yUlJf8AAAAAAAAAAEpKSv/g1dX/4NXV/+DV1f/g1dX/4NXV/+DV1f/g1dX/4NXV/+DV1f/g1dX/4NXV/+DV1f8eHh7/AAAAAAAAAABOTk7/4NXV/+DV1f/g1dX/4NXV/+DV1f/g1dX/4NXV/+DV1f/g1dX/4NXV/+DV1f/g1dX/GRkZ/wAAAAAAAAAAUFBQ/05OTv9KSkr/RUVF/z8/P/84ODj/MTEx/yoqKv8jIyP/HR0d/xcXF/8TExP/EBAQ/xQUFP8AAAAAgAEAAIABAADwDwAA8A8AAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAA==" rel="icon" type="image/x-icon" />
+<style>
+
+@font-face {
+    font-family: 'IBM';
+    src: url(ibm.woff2);
+}
+
+p {
+margin:0;
+display:inline-block;
+}
+
+body {
+background-color:black;
+font-family: 'IBM', monospace;
+color:white;
+font-size: 32px;
+overflow-y: hidden;
+}
+
+.blinking-cursor { 
+  font-weight: bold;
+  padding-left: 16px;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite; 
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="c629bdca24cc259e74be6259-"></script>
+<script type="c629bdca24cc259e74be6259-">
+
+function retryBoot () {
+$("p:last").append("<br><p>No bootable device -- insert boot disk and press any key<br></p>");
+$(window).scrollTop($(document).height());
+}
+</script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/92209a86/cloudflare-static/rocket-loader.min.js" data-cf-nonce="c629bdca24cc259e74be6259-"></script><body onkeypress="retryBoot()">
+<br>
+<p>Intel UNDI, PXE-2.1 (build 083)</p><br>
+<p>Copyright (C) 1997-2000 Intel Corporation</p>
+<br>
+<br>
+<p><p>No bootable device -- insert boot disk and press any key<br></p><span class="blinking-cursor">_</span>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/92209a86/cloudflare-static/rocket-loader.min.js" data-cf-nonce="c629bdca24cc259e74be6259-" defer=""></script></body>
+</html>
